@@ -24,3 +24,4 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/rey-static-website:latest
+docker pull reynise/rey-static-website:latest
